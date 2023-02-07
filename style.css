@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: darkseagreen;
+}
+h1 {
+  margin: 1rem;
+  color: darkmagenta;
+}
+.container {
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container2 {
+  display: flex;
+  background-color: lightsalmon;
+  border: 0.4rem solid lightseagreen;
+  width: 50%;
+  border-radius: 20px;
+}
+.iki {
+  border: 0.4rem solid lightseagreen;
+  width: 50%;
+  border-radius: 20px;
+}
+.üç {
+  border: 0.4rem solid lightseagreen;
+  width: 50%;
+  border-radius: 20px;
+}
+.calc {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+}
+.eksi {
+  padding: 1px 8px;
+}
+.artı {
+  padding: 1px 8px;
+}
+.sayı {
+  width: 20%;
+  text-align: center;
+  border: none;
+}
+.bag p {
+  margin: 1rem 0;
+}
+.işlem {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  width: 55%;
+  background-color: lightsalmon;
+}
+.btn {
+  margin: 1rem 0;
+}
+.btn2 {
+  width: 55%;
+  border-radius: 10px;
+  outline: none;
+  padding: 5px;
+  background-color: darkmagenta;
+  color: white;
+  font-size: 1rem;
+  border: none;
+}
+.total {
+  display: flex;
+  flex-wrap: wrap;
+}
+.image {
+  text-align: center;
+  width: 65%;
+}
+.container3 {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightsalmon;
+  border: 0.4rem solid lightseagreen;
+  width: 50%;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 1rem;
+}
+.abc {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+}
+.sbt1 {
+  display: flex;
+  justify-content: space-between;
+}
+.dolar {
+  display: flex;
+  justify-content: flex-end;
+}
+h3 {
+  color: brown;
+}
